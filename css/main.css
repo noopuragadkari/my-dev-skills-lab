@@ -1,0 +1,48 @@
+body {
+    font-size: 20px;
+  }
+  
+  #developerSkills > thead > tr > th {
+      background-color:#9DC184;
+      color: white;
+      font-weight: 800;
+      text-align: center;
+  }
+  
+  table {
+      margin-top: 20px;
+  }
+  
+  td > button {
+    margin-right: 10px;
+  }
+  
+  input {
+      padding: 10px;
+      border: 2px solid #A9C893;
+  }
+  
+  .add-skill {
+      padding: 10px;
+      width: 168px;
+      border: 2px solid #A9C893;
+      color: #A9C893;
+      background-color: white;
+  }
+  
+  .submitter {
+      width: 970px;
+  }
+  
+  #developerSkills tbody {
+      color: #F4B15B;
+      font-weight: 800;
+  }
+  
+  .container {
+      width: 600px;
+  }
+  
+  .new-skill {
+      width: 400px;
+  }
