@@ -22,18 +22,6 @@ body {
       border: 2px solid #A9C893;
   }
   
-  .add-skill {
-      padding: 10px;
-      width: 168px;
-      border: 2px solid #A9C893;
-      color: #A9C893;
-      background-color: white;
-  }
-  
-  .submitter {
-      width: 970px;
-  }
-  
   #developerSkills tbody {
       color: #F4B15B;
       font-weight: 800;
@@ -43,6 +31,13 @@ body {
       width: 600px;
   }
   
-  .new-skill {
-      width: 400px;
-  }
+  .skillField{
+    width:460px;
+    text-align: center;
+}
+
+.addSkill{
+    outline: 2px inset #A9C893;
+    max-width: 150px;
+    width: 150px;
+}

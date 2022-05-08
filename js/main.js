@@ -1,11 +1,11 @@
-$('.add-skill').on('click', function() {
+$('.addSkill').on('click', function() {
     let template = `
       <tr>
-        <td><button class="btn btn-xs btn-danger">X</button>${$('.new-skill').val()}</td>
+        <td><button class="btn btn-xs btn-danger">X</button>${$('.skillField').val()}</td>
       </tr>
       `;
     $('#developerSkills tbody').append(template);
-    $('.new-skill').val('');
+    $('.skillField').val('');
 });
 
 $('#developerSkills tbody').on('click', 'button', function() {
